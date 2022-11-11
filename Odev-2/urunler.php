@@ -48,13 +48,13 @@
         $etiCikolata = $_POST["etiCikolataAdedi"];
         $nestleCikolata = $_POST["nestleCikolataAdedi"];
 
-        if ( empty($ulkerCikolata) ) {
+        if ( empty($ulkerCikolata) || $ulkerCikolata < 0) {
             $ulkerCikolata = 0;
         }
-        if ( empty($etiCikolata) ) {
+        if ( empty($etiCikolata) || $etiCikolata < 0 ) {
             $etiCikolata = 0;
         }
-        if ( empty($nestleCikolata) ) {
+        if ( empty($nestleCikolata) || $nestleCikolata < 0 ) {
             $nestleCikolata = 0;
         }
 
