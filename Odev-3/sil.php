@@ -5,8 +5,6 @@
     // Veritabanı bağlantımız
     require_once 'connect.php';
 
-    $toplamKayit = $_SESSION['toplamKayit'];
-
 
     $_SESSION['urunId'] = $_GET["id"];
     
