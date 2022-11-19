@@ -28,7 +28,9 @@
         <input type="text" name="telefon">
         <br><br>
         
-        <input type="hidden" name="id" value="<?php echo $_SESSION['urunId']; ?>">
+        <input type="hidden" name="id" value="<?php if (isset($_SESSION['urunId'])) {
+            echo $_SESSION['urunId'];
+        }?>">
         <input style="cursor:pointer; background-color: #4472C4; color: white; border:0; padding:6px 24px;" type="submit" value="Bilgileri Kaydet">
 
     </form>
