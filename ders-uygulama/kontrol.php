@@ -16,8 +16,4 @@
         header("Location: Ders-UyeGirisFormu.php");
     }
 
-
-
-
-
 ?>
