@@ -1,0 +1,1 @@
+<a href="index.php">Ana Sayfa</a> - <a href="liste.php">Liste</a><br><br><br><br>
